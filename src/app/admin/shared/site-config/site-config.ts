@@ -8,7 +8,9 @@ export class SiteConfig {
   meetupLink: string;
   githubLink: string;
 
+  eventType: string;
   eventName: string;
+  eventDescription: string;
   eventDate: string;
   eventEmail: string;
   eventLink: string;

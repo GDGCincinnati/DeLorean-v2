@@ -36,7 +36,9 @@ export class SiteConfigService {
             meetupLink: siteConfig.meetupLink ? siteConfig.meetupLink : null,
             githubLink: siteConfig.githubLink ? siteConfig.githubLink : null,
 
+            eventType: siteConfig.eventType ? siteConfig.eventType : 'DevFest',
             eventName: siteConfig.eventName,
+            eventDescription: siteConfig.eventDescription ? siteConfig.eventDescription : null,
             eventDate: siteConfig.eventDate,
             eventEmail: siteConfig.eventEmail,
             eventLink: siteConfig.eventLink,
@@ -65,7 +67,9 @@ export class SiteConfigService {
         meetupLink: siteConfig.meetupLink ? siteConfig.meetupLink : null,
         githubLink: siteConfig.githubLink ? siteConfig.githubLink : null,
 
+        eventType: siteConfig.eventType ? siteConfig.eventType : 'DevFest',
         eventName: siteConfig.eventName,
+        eventDescription: siteConfig.eventDescription ? siteConfig.eventDescription : null,
         eventDate: siteConfig.eventDate,
         eventEmail: siteConfig.eventEmail,
         eventLink: siteConfig.eventLink,
